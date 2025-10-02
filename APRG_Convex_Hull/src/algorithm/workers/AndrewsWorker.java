@@ -1,4 +1,3 @@
-// src/main/java/algorithm/workers/AndrewsWorker.java
 package algorithm.workers;
 
 import algorithm.progress.HullProgressListener;

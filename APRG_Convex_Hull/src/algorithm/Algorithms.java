@@ -1,4 +1,3 @@
-// src/main/java/algorithm/Algorithms.java
 package algorithm;
 
 public enum Algorithms {

@@ -1,4 +1,3 @@
-// src/main/java/algorithm/progress/HullProgressListener.java
 package algorithm.progress;
 
 import java.awt.geom.Point2D;

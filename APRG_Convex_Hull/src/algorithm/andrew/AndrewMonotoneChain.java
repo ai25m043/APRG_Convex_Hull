@@ -1,4 +1,3 @@
-// src/main/java/algorithm/andrew/AndrewMonotoneChain.java
 package algorithm.andrew;
 
 import algorithm.ConvexHullAlgorithm;

@@ -1,4 +1,3 @@
-// src/main/java/algorithm/workers/JarvisWorker.java
 package algorithm.workers;
 
 import algorithm.progress.HullProgressListener;

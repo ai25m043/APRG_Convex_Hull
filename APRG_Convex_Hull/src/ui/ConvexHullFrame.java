@@ -1,4 +1,3 @@
-// src/main/java/ui/ConvexHullFrame.java
 package ui;
 
 import algorithm.Algorithms;

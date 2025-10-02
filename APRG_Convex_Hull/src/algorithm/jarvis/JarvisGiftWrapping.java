@@ -1,4 +1,3 @@
-// src/main/java/algorithm/jarvis/JarvisGiftWrapping.java
 package algorithm.jarvis;
 
 import algorithm.ConvexHullAlgorithm;

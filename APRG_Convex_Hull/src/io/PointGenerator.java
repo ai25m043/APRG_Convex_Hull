@@ -1,4 +1,3 @@
-// src/main/java/io/PointGenerator.java
 package io;
 
 import java.awt.geom.Point2D;

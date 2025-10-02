@@ -1,4 +1,3 @@
-// src/main/java/algorithm/ConvexHullAlgorithm.java
 package algorithm;
 
 import java.awt.geom.Point2D;

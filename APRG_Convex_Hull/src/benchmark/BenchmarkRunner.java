@@ -1,4 +1,3 @@
-// src/main/java/benchmark/BenchmarkRunner.java
 package benchmark;
 
 import algorithm.ConvexHullAlgorithm;
