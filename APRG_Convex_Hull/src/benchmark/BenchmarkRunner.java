@@ -8,6 +8,7 @@ import java.util.List;
 
 public class BenchmarkRunner {
 
+    /** Single timing (milliseconds). */
     public static long timeMillis(ConvexHullAlgorithm algo, List<Point2D> pts) {
         long t0 = System.nanoTime();
         var hull = algo.computeConvexHull(pts);
@@ -17,9 +18,9 @@ public class BenchmarkRunner {
         return (t1 - t0) / 1_000_000;
     }
 
-    public static double avgMillis(ConvexHullAlgorithm algo, List<Point2D> pts, int warmup, int runs) {
-        for (int i = 0; i < warmup; i++) timeMillis(algo, pts); // JIT warm-up
-        long totalNs = 0;
+    /** Average over 'runs' executions (no warmup). */
+    public static double avgMillis(ConvexHullAlgorithm algo, List<Point2D> pts, int runs) {
+        long totalNs = 0L;
         for (int i = 0; i < runs; i++) {
             long t0 = System.nanoTime();
             var hull = algo.computeConvexHull(pts);
